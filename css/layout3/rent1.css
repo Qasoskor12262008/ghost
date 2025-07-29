@@ -1,0 +1,39 @@
+:root{
+    --main-color: black;
+    --secondary-color: white;
+    --color: #27AE60;
+}
+
+#rent1{
+padding-top: 100px;
+}
+
+.rent1-content{
+display: grid;
+grid-template-columns: auto auto;
+gap: 39px;
+margin-bottom: 70px;
+}
+
+
+.rent-title{
+font-size: 32px;
+line-height: 130%;
+}
+
+.rent-desc{
+font-size: 18px;
+line-height: 130%;
+}
+
+
+@media (max-width:950px) {
+    .rent1-content{
+        grid-template-columns: auto;
+    }
+
+    .rent1-card , .rent-img{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

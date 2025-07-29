@@ -1,0 +1,37 @@
+:root{
+    --main-color: black;
+    --secondary-color: white;
+    --color: #27AE60;
+}
+
+
+.road-content{
+display: grid;
+grid-template-columns: auto auto;
+gap: 39px;
+margin-top: 100px;
+margin-bottom: 30px;
+}
+
+
+.road-title{
+font-size: 32px;
+line-height: 130%;
+}
+
+.road-desc{
+font-size: 18px;
+line-height: 130%;
+}
+
+
+@media (max-width:1200px) {
+    .road-content{
+        grid-template-columns: auto;
+    }
+
+    .road-card , .important{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

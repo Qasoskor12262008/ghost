@@ -1,0 +1,36 @@
+:root{
+    --main-color: black;
+    --secondary-color: white;
+    --color: #27AE60;
+}
+
+
+.sand-content{
+display: grid;
+grid-template-columns: auto auto;
+gap: 39px;
+margin-top: 100px;
+margin-bottom: 30px;
+}
+
+
+.sand-title{
+font-size: 32px;
+line-height: 130%;
+}
+
+.sand-desc{
+font-size: 18px;
+line-height: 130%;
+}
+
+@media (max-width:1200px) {
+    .sand-content{
+        grid-template-columns: auto;
+    }
+
+    .sand-card , .important{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

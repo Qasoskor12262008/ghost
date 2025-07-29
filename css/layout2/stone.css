@@ -1,0 +1,37 @@
+:root{
+    --main-color: black;
+    --secondary-color: white;
+    --color: #27AE60;
+}
+
+
+.stone-content{
+display: grid;
+grid-template-columns: auto auto;
+gap: 39px;
+margin-top: 100px;
+margin-bottom: 30px;
+}
+
+
+.stone-title{
+font-size: 32px;
+line-height: 130%;
+}
+
+.stone-desc{
+font-size: 18px;
+line-height: 130%;
+}
+
+
+@media (max-width:1200px) {
+    .stone-content{
+        grid-template-columns: auto;
+    }
+
+    .stone-card , .important{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

@@ -1,0 +1,104 @@
+:root{
+    --main-color: black;
+    --secondary-color: white;
+    --color: #27AE60;
+}
+
+.why-h2{
+margin-top: 80px;
+margin-left: 150px;
+}
+
+.why-content{
+display: grid;
+grid-template-columns: auto auto auto auto auto;
+gap: 14px;
+justify-content: center;
+margin-top: 60px;
+text-align: center;
+
+}
+
+.why-card{
+display: grid;
+grid-template-columns: auto auto;
+width: 273px;
+height: 90px;
+text-align: center;
+align-items: center;
+border: 2px solid black ;
+border-radius: 8px;
+}
+
+.why-card img{
+padding-left: 15px;
+}
+
+span{
+color: var(--color);
+font-size: 14px;
+line-height: 140%;
+}
+
+.why-desc{
+font-size: 14px;
+line-height: 140%;
+padding-right: 15px;
+}
+
+.why-card:hover{
+box-shadow: 1px 1px 10px gray;
+transform: translateY(-10px);
+}
+
+
+@media (max-width:1420px) {
+    .why-content{
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .why-card{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (max-width:1160px) {
+    .why-content{
+        grid-template-columns: auto auto auto;
+    }
+
+        .why-card{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (max-width:865px) {
+    .why-content{
+        grid-template-columns: auto auto;
+    }
+
+        .why-card{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+@media (max-width:585px) {
+    .why-content{
+        grid-template-columns: auto ;
+    }
+
+        .why-card{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .why-h2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
