@@ -12,7 +12,7 @@ margin-left: 150px;
 .why-content{
 display: grid;
 grid-template-columns: auto auto auto auto auto;
-gap: 14px;
+gap: 10px;
 justify-content: center;
 margin-top: 60px;
 text-align: center;
@@ -22,7 +22,7 @@ text-align: center;
 .why-card{
 display: grid;
 grid-template-columns: auto auto;
-width: 273px;
+width: 200px;
 height: 90px;
 text-align: center;
 align-items: center;
